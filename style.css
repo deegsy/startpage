@@ -1,0 +1,27 @@
+body {
+  background: linear-gradient(#2f1360, #b9146d);
+  filter: drop-shadow(8px 8px 5px #160822);
+}
+
+ul, h1 {
+  filter: drop-shadow(2px 2px 1px #160822);
+}
+
+  .clock-box {
+      position: absolute;
+      color: #ffffff;
+      flex-direction: row;
+      display: block;
+      justify-content: space-between;
+      margin-top: 19em;
+      margin-left: -1.15em;
+    }
+
+    a:focus,
+    a:hover {
+      -webkit-transition: all 0.5s ease-in-out;
+    }
+
+    a {
+      -webkit-transition: all 0.5s ease-in-out;
+    }
